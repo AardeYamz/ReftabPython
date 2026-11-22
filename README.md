@@ -1,3 +1,20 @@
+> **Fork of [Reftab/ReftabPython](https://github.com/Reftab/ReftabPython).** Python client for the Reftab asset-management API (`get`, `post`, `put`, `delete`). The upstream README follows unchanged.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    me["My script"] --> c["reftab ReftabClient"] --> api["Reftab API"]
+```
+
+## Related repos
+
+| Repo | Relationship |
+|---|---|
+| [Reftab/ReftabPython](https://github.com/Reftab/ReftabPython) | Upstream project |
+
+---
+
 ReftabPython
 =============
 
